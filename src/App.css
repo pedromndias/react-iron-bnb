@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: orange;
+}
+
+.nav-active {
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+
+* {
+  transition: background-color 0.5s;
+}
+
+.light-page {
+  background-color: rgb(201, 201, 201);
+  min-height: 100vh;
+}
+
+.dark-page {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  min-height: 100vh;
+}
+
+.dark-btn {
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.light-btn {
+  background-color: lightblue;
+  border: none;
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+}
